@@ -1,6 +1,25 @@
-Info:
+Datapack Info: 
+  
+  Version: v1.0
+  Optimized: No
+  Base Clock: 20 Ticks
+  
 
 
+Install and Uninstall Commands:
 
+  Install
+   /function thehunt:control/datapack/master/install/advanced
+   
+  Uninstall
+   /function thehunt:control/datapack/master/uninstall/normal
+   
+  Uninstall and Disable
+   /function thehunt:control/datapack/master/uninstall/advanced
+  
+  
+  
+Gamemode Settings:
 
-
+ Get Setting Book
+   /function thehunt:control/datapack/settings_book
