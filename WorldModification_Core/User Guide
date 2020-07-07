@@ -8,13 +8,13 @@ Datapack Info:
 
 Install and Uninstall Commands:
 
-  Install Command
+  Install
    /function world.modification:control/datapack/primary/install
    
-  Uninstall Command
+  Uninstall
    /function world.modification:control/datapack/primary/uninstall
    
-  Uninstall and Disable Command
+  Uninstall and Disable
    /function world.modification:control/datapack/primary/uninstall/disable
   
   
