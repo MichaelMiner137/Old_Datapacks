@@ -1,0 +1,2 @@
+scoreboard players set fighting-phase-duration Settings 30
+tellraw @s ["",{"text":"Fighting Duration set to: ","color":"white"},{"score":{"name":"fighting-phase-duration","objective":"Settings"},"color":"gold"}]

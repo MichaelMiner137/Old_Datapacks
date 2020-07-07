@@ -1,0 +1,14 @@
+execute as @a at @s run scoreboard players operation @s MathPosX = @s EvenPosX 
+execute as @a at @s run scoreboard players operation @s MathPosY = @s EvenPosY
+execute as @a at @s run scoreboard players operation @s MathPosZ = @s EvenPosZ
+execute as @a at @s run scoreboard players operation @s MathPosX -= @s CenterPosX
+execute as @a at @s run scoreboard players operation @s MathPosY -= @s CenterPosY
+execute as @a at @s run scoreboard players operation @s MathPosZ -= @s CenterPosZ
+execute as @a[scores={MathPosX=..-1}] at @s run scoreboard players operation @s MathPosX *= @s MathFlip
+execute as @a[scores={MathPosY=..-1}] at @s run scoreboard players operation @s MathPosY *= @s MathFlip
+execute as @a[scores={MathPosZ=..-1}] at @s run scoreboard players operation @s MathPosZ *= @s MathFlip
+execute as @a at @s run scoreboard players operation @s DistToCenterX = @s MathPosX 
+execute as @a at @s run scoreboard players operation @s DistToCenterY = @s MathPosY
+execute as @a at @s run scoreboard players operation @s DistToCenterZ = @s MathPosZ
+execute as @a at @s run scoreboard players operation @s DistToCenter = @s DistToCenterX
+execute as @a at @s run scoreboard players operation @s DistToCenter += @s DistToCenterZ

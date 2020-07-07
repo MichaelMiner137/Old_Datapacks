@@ -1,0 +1,2 @@
+scoreboard players set preparation-phase-duration Settings 30
+tellraw @s ["",{"text":"Preparation Duration set to: ","color":"white"},{"score":{"name":"preparation-phase-duration","objective":"Settings"},"color":"gold"}]

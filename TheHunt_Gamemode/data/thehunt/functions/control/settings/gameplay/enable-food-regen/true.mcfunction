@@ -1,0 +1,1 @@
+scoreboard players set enable-food-regen Settings 1

@@ -1,0 +1,1 @@
+scoreboard players set enable-time-cycle Settings 1

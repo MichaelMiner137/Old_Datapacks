@@ -1,0 +1,3 @@
+execute as @e[team=TheHunt,tag=Center,limit=1,scores={PlayerCount=1}] run title @a subtitle ["",{"text":"is the Winner","color":"gold"}]
+execute as @e[team=TheHunt,tag=Center,limit=1,scores={PlayerCount=1}] run title @a title ["",{"selector":"@a[gamemode=survival,limit=1]","color":"green"}]
+execute as @e[team=TheHunt,tag=Center,limit=1,scores={PlayerCount=1}] run scoreboard players set @s PlayerCount 0

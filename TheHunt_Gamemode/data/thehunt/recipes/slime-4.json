@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:water_bucket"
+        },
+        {
+            "item": "minecraft:jungle_leaves"
+        },
+        {
+            "item": "minecraft:green_dye"
+        }
+    ],
+    "result": {"item": "minecraft:slime_ball",
+        "count": 1},
+    "group": "green_dye"
+}

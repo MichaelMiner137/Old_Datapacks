@@ -1,0 +1,1 @@
+scoreboard players set enable-nether Settings 0
