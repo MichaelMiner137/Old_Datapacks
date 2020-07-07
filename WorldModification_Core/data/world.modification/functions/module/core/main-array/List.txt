@@ -1,0 +1,18 @@
+### NOTE ###
+Cobblestone has no biome temp
+??? Deep Oceans should be less affected by "fade in"
+Caves that are below sea level are "faded in"
+??? Grass should become desert
+Passthrough (Glazed Terracotta, Hay Bale, Cobweb, Dead Bush)
+
+
+### BUG ###
+Buildings and other natural structures mess up scanner (Mansion)
+Terracotta generates in under water structures
+
+
+
+
+
+
+

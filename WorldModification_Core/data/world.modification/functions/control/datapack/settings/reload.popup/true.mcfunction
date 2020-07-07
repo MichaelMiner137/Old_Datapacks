@@ -1,0 +1,1 @@
+scoreboard players set reloadPopup WMod_Settings 1

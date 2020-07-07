@@ -1,0 +1,1 @@
+scoreboard players set enableMultiScanning WMod_Settings 0
