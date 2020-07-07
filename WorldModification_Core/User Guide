@@ -1,0 +1,42 @@
+Datapack Info: 
+  
+  Version: Unfinished (attempt 5)
+  Optimized: No
+  Base Clock: 20 Ticks
+  
+
+
+Install and Uninstall Commands:
+
+  Install Command
+   /function world.modification:control/datapack/primary/install
+   
+  Uninstall Command
+   /function world.modification:control/datapack/primary/uninstall
+   
+  Uninstall and Disable Command
+   /function world.modification:control/datapack/primary/uninstall/disable
+  
+  
+  
+Chunk Scanning Settings:
+
+  Chunk Scan Frequency (How many chunks are scanned per time listed)
+   /function world.modification:control/server-settings/chunk.scan.frequency/1-second/20-scan
+   /function world.modification:control/server-settings/chunk.scan.frequency/1-second/10-scan
+   /function world.modification:control/server-settings/chunk.scan.frequency/1-second/4-scan
+   /function world.modification:control/server-settings/chunk.scan.frequency/1-second/2-scan
+   /function world.modification:control/server-settings/chunk.scan.frequency/1-second/1-scan
+   /function world.modification:control/server-settings/chunk.scan.frequency/2-second
+   /function world.modification:control/server-settings/chunk.scan.frequency/3-second
+   /function world.modification:control/server-settings/chunk.scan.frequency/5-second
+   /function world.modification:control/server-settings/chunk.scan.frequency/10-second
+   
+  Enable Multi Scanning (Allows different stages to activate at the same time when available)
+   /function world.modification:control/server-settings/enable.multi.scanning/false
+   /function world.modification:control/server-settings/enable.multi.scanning/true
+   
+  Scanning Type (How 8x8 Chunks are scanned)
+   /function world.modification:control/server-settings/scanning.type/cascade
+   /function world.modification:control/server-settings/scanning.type/instant
+   
